@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+header{
+    padding: 10px;
+    background-color: #0a1e87;
+    margin: 10px;
+}
+header h1{
+    text-align: center;
+    color: #ffffff;
+}
+nav{
+    padding: 3px;
+    /* background-color: #f7f8fc; */
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    color: #71798a;
+    font-weight: bold;
+    transition: 0.4s;
+    /* border: 1px solid black; */
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px -1px #FFFFFF;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: rgb(196, 196, 196);
+
+}
+.main-content{
+    display: flex;
+    background-color: #00000065;
+}
+.test{
+    width: 50%;
+    margin: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#fut{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+#fut h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#fut article{
+    margin-left: 50px;
+}
+.div-container{
+    display: flex;
+    flex-direction: column;
+}
+#logo-fut{
+    width: 30px;
+    height: 30px;
+}
+#img-container{
+    width: 200px;
+}
+main{
+    padding: 10px;
+    background-color: gray;
+    margin: 10px;
+}
+article{
+    background-color: lightgray;
+    padding: 5px;
+}
+article aside{
+    background-color: rgb(196, 195, 195);
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 1px;
+}
