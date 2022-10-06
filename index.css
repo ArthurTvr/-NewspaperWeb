@@ -61,19 +61,24 @@ nav a:hover {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
+    width: 71%;
+    margin: 0 auto;
 }
 #noticias{
-    width: 70%;
-
-    text-align: center;
+    text-align: justify;
     margin: 0 auto;
 
 }
+#noticias h2{
+    text-align: center;
+}
+#noticias aside p{
+    margin-top: 5px;
+}
 .test {
-    width: 20%;
     margin: 20px;
-
+    max-width: 600px;
+    min-width: 235px;
 }
 #fut {
     margin-top: 50px;
@@ -81,7 +86,6 @@ nav a:hover {
     flex-direction: row;
     align-items: center;
     justify-content: center;
- 
 }
 
 #fut h2 {
@@ -89,11 +93,6 @@ nav a:hover {
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-/* 
-#fut article {
-    margin-left: 50px;
-} */
-
 .div-container {
     display: flex;
     flex-direction: column;
@@ -106,7 +105,8 @@ nav a:hover {
 }
 
 #img-container {
-    width: 200px;
+    width: 24%;
+    margin: 0 auto;
 }
 
 main {
@@ -135,9 +135,14 @@ footer {
 }
 .politic{
     width: 70%;
-    /* display: flex; */
     justify-content: center;
+    text-align: justify;
     align-items: center;
-    text-align: center;
     margin: 0 auto;
+}
+.politic h1{
+    text-align: center;
+}
+.principal{
+    width: 100%;
 }
