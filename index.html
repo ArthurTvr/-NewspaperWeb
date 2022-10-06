@@ -8,61 +8,93 @@
     <meta name="color-scheme" content="ligth">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
     <header>
-        <h1>NewsPapperWeb</h1>
+        <h1>NewsPapperWeb
+        <span class="material-symbols-outlined">
+            newspaper
+        </span></h1>
         <nav>
             <a href="#">Home</a>
-            <a href="#">Link</a>
+            <a href="politic.html">Política</a>
             <a href="#">Link</a>
             <a href="#">Link</a>
             <a href="#">Link</a>
         </nav>
     </header>
     <main>
-        <section id="noticias">
-            <article>
-                <h2>Notícia sobre o Brasil</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ab illo architecto totam, exercitationem
-                    nostrum voluptate deleniti, accusamus obcaecati dignissimos itaque perferendis cum pariatur, quod
-                    quis. Incidunt sint harum atque!</p>
-                <aside>
-                    <p>Artigo escrito por fulano</p>
-                </aside>
+        <div>
+            <section class="main-content">
+                <article id="noticias">
+                    <h2>Notícia sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ab illo architecto totam,
+                        exercitationem
+                        nostrum voluptate deleniti, accusamus obcaecati dignissimos itaque perferendis cum pariatur,
+                        quod
+                        quis. Incidunt sint harum atque!</p>
+                    <aside>
+                        <p>Artigo escrito por fulano</p>
+                    </aside>
+                </article>
+            </section>
+            <section class="main-content">
+                <div class="test">
+                    <article id="fut">
+                        <h2>Futebol</h2>
+                        <img id="logo-fut" src="./assets/Bola-logo.png" alt="emoji-bola">
+                    </article>
+                    <article class="div-container">
+                        <!-- <h3>Vasco toma um PAU do Cruzeiro na última quarta.</h3> -->
+                        <p>Após humilhar o Vasco, Cruzeiro garante sua Vitória antecipada da Segunda divisão do
+                            campeonato
+                            brasileiro.</p>
+                        <img id="img-container" src="./assets/Cruzeiro.PNG" alt="img">
+                    </article>
+                </div>
+                <div class="test">
+                    <article id="fut">
+                        <h2>Basquete</h2>
+                        <img id="logo-fut" src="./assets/bola-basquete.png" alt="">
+                    </article>
+                    <article class="div-container">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, facere animi ea et culpa
+                            doloribus accusamus voluptatem ex. Ipsum sequi repellat, enim vel dolore et fugit voluptate
+                            quaerat natus rem.</p>
+
+                        <img id="img-container" src="./assets/Cruzeiro.PNG" alt="img-cruzeiro">
+                    </article>
+                </div>
+
+            </section>
+        </div>
+        <section class="main-container">
+            <article class="politic">
+                <h1>ELEIÇÕES</h1>
+                <p>Eleições presidenciais de 2022 serão decididas no segundo turno</p>
+                <p>Mais de 156 milhões de brasileiros estiveram aptos a comparecer às urnas neste domingo (2/10) nas
+                    eleições 2022, segundo dados do Tribunal Superior Eleitoral (TSE). Na votação, os eleitores tiveram
+                    de escolher seus candidatos para presidente, governador, senador, deputado federal e estadual. O
+                    JOTA fez uma cobertura ao vivo das eleições e da votação, com informações e análises da boca de urna
+                    até a apuração e os resultados finais. Na disputa entre os candidatos à Presidência da República,
+                    haverá segundo turno entre o ex-presidente Luiz Inácio Lula da Silva (PT) e o atual presidente da
+                    República Jair Bolsonaro (PL).
+
+                    Das 17h de Brasília, quando fecharam as urnas em todo o país, até as 22h20, o JOTA transmitiu, em
+                    parceria com o Inteligência Financeira, o GPS Eleitoral, live com a marcha da apuração, análises
+                    sobre o que esperar no segundo turno, a configuração das bancadas no Congresso e a dinâmica das
+                    disputas estaduais. A transmissão será comandada por Fábio Zambeli, analista-chefe do JOTA, Bárbara
+                    Baião, analista de Congresso, e Iago Bolívar, consultor digital do JOTA.</p>
+
             </article>
         </section>
-        <div class="main-content">
-            <div class="test">
-                <article id="fut">
-                    <h2>Futebol</h2>
-                    <img id="logo-fut" src="./assets/Bola-logo.png" alt="emoji-bola">
-                </article>
-                <article class="div-container">
-                    <h3>Vasco toma um PAU do Cruzeiro na última quarta.</h3>
-                    <p>Após humilhar o Vasco, Cruzeiro garante sua Vitória antecipada da Segunda divisão do campeonato
-                        brasileiro.</p>
-                    <img id="img-container" src="./assets/Cruzeiro.PNG" alt="img">
-                </article>
-            </div>
-            <div class="test">
-                <article id="fut">
-                    <h2>Basquete</h2>
-                    <img id="logo-fut" src="./assets/bola-basquete.png" alt="">
-                </article>
-                <article class="div-container">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, facere animi ea et culpa
-                        doloribus accusamus voluptatem ex. Ipsum sequi repellat, enim vel dolore et fugit voluptate
-                        quaerat natus rem.</p>
-
-                    <img id="img-container" src="./assets/Cruzeiro.PNG" alt="img-cruzeiro">
-                </article>
-            </div>
-        </div>
     </main>
     <footer>
         <p>Desenvolvido por Arthur Tavares</p>
+
     </footer>
 </body>
 

@@ -1,24 +1,43 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }
 
 header {
     padding: 10px;
     background-color: #0a1e87;
     margin: 0px;
+    position: fixed; 
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
 }
 
 header h1 {
     text-align: center;
     color: #ffffff;
+    /* padding: 19px; */
+   
 }
-
 nav {
     padding: 3px;
-    /* background-color: #f7f8fc; */
     display: flex;
     justify-content: space-around;
+    
 }
 nav a {
     text-decoration: none;
@@ -44,17 +63,25 @@ nav a:hover {
     align-items: center;
 
 }
+#noticias{
+    width: 70%;
 
+    text-align: center;
+    margin: 0 auto;
+
+}
 .test {
-    width: 40%;
+    width: 20%;
     margin: 20px;
 
 }
 #fut {
     margin-top: 50px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+ 
 }
 
 #fut h2 {
@@ -62,10 +89,10 @@ nav a:hover {
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+/* 
 #fut article {
     margin-left: 50px;
-}
+} */
 
 .div-container {
     display: flex;
@@ -86,11 +113,13 @@ main {
     padding: 10px;
     background-color: gray;
     margin: 0px;
+    padding-top: 150px;
+    
 }
 
 article {
     background-color: rgb(255, 255, 255);
-    padding: 5px;
+    padding: 10px;
 }
 
 article aside {
@@ -103,4 +132,12 @@ footer {
     text-align: center;
     margin: 0px;
     padding: 1px;
+}
+.politic{
+    width: 70%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
 }
