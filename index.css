@@ -57,9 +57,11 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     width: 71%;
+    min-width: 400px;
     margin: 0 auto;
 }
 .main-content1 {
+   
     align-items: center;
     width: 71%;
     margin: 0 auto;
@@ -83,7 +85,7 @@ nav a:hover {
     margin: 20px;
     margin-bottom: 70px;
     max-width: 600px;
-    min-width: 235px;
+    min-width: 255px;
 }
 #fut {
     margin-top: 50px;
