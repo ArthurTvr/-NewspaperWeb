@@ -147,6 +147,16 @@ footer {
     align-items: center;
     margin: 0 auto;
 }
+#div-politic{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 71%;
+    min-width: 400px;
+    margin: 0 auto;
+}
 .politic h1{
     text-align: center;
 }
